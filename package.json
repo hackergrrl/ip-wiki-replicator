@@ -7,7 +7,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "run": "electron-spawn index.js"
+    "start": "electron-spawn index.js"
   },
   "dependencies": {
     "signalhub": "^4.3.2",

@@ -2,7 +2,7 @@ var swarm = require('webrtc-swarm')
 var signalhub = require('signalhub')
 
 if (process.argv.length !== 3) {
-  console.error("USAGE: ip-wiki-replicator /ipfs/Qmfoobaripwikiroothash")
+  console.log("USAGE: ip-wiki-replicator /ipfs/Qmfoobaripwikiroothash")
   process.exit(1)
 }
 
