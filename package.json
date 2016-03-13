@@ -1,0 +1,16 @@
+{
+  "name": "ip-wiki-root-replicator",
+  "description": "Wiki root replicator for the Interplanetary Wiki.",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/ip-wiki-root-replicator.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "run": "electron-spawn index.js"
+  },
+  "dependencies": {
+    "signalhub": "^4.3.2",
+    "webrtc-swarm": "^2.4.0"
+  }
+}
